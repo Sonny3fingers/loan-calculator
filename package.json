@@ -4,7 +4,7 @@
   "description": "Simple loan calculator",
   "main": "app.js",
   "scripts": {
-    "test": "vitest --run --reporter verbose",
+    "test": "vitest --run --reporter verbose --environment happy-dom",
     "test:watch": "vitest",
     "build": "webpack",
     "build:dev": "webpack-dev-server"
@@ -16,5 +16,8 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "happy-dom": "^7.6.6"
   }
 }
